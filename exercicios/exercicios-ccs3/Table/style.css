@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  width:100%;  
+  
+}
+table{
+  background: rgb(240, 248, 255) 
+  
+}
+.centro{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1{
+  text-align: center;  
+}
+td, th{
+  border: solid 1px;
+  padding: 5px;
+  
+}
+th{
+  background: rgb(168, 218, 213);
+}

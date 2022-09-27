@@ -1,0 +1,87 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background: #caf;
+  color: #271;
+  transition: 0,3s;/*transição de cor no link*/
+}
+
+a:hover { /*funçaõ hover - mudando a tonalidade da cor do elemento A, pode ser em qualquer elemento*/
+  background: #adf;
+  color: #147;
+  border: 2px solid blue;
+}
+
+a:focus { /*especifico para elementos que podem interagir com o usuaário */
+  background: #cfa;
+  color: #371;  
+}
+
+a:active{ /*marca o elemento quando ele é clicado*/
+  background: #ffa;
+  color: #761;
+}
+
+a:visited{/* marca o link que foi visitado*/
+  background: #fda;
+  color: #731;
+}
+
+.lista-1 li{
+  background: #ffa;
+}
+.lista-1 li:first-child{
+  background: #caf;
+}
+.lista-1 li:last-child{
+  background: #cfa;
+}
+.lista-1 li:nth-child(3){
+  background: #731;
+}
+
+.lista-2 li:nth-child(even){
+  /*seleciona elementos pares*/
+  background: #caf;
+}
+.lista-2 li:nth-child(odd){
+  /*seleciona elementos impares*/
+  background: #cfa;
+}
+.lista-2 li:nth-child(3n){
+  /*seleciona os elementos de 3 em 3*/
+  background: #147  ;
+}
+h1{
+  position: relative;
+}
+
+h1::After{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #caf; 
+}
+ul{
+  list-style: none;
+}
+li{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(#caf, #fff);
+  border: 2px solid #caf;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+

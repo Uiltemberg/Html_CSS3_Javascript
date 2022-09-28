@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  font-family: "Netflix Sans" Arial, Helvetica, sans-serif;
+}
+header{
+  background: rgb(1, 1 , 1);
+  display: flex;
+  justify-content: space-between;  
+  padding: 20px; 
+}
+h1, a {
+  color: rgb(229, 9, 20);
+  font-family: "Netflix Sans"
+}
+h1{
+  font-size: 36px;
+  text-transform: uppercase;
+}
+a{   
+  background: rgb(229, 9, 20);
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid rgb(229, 9, 20);
+  border-radius: 10%;  
+}
+main{
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b321426e-35ae-4661-b899-d63bca17648a/cc0bbe62-b94e-46da-8e43-af3e53f3d1fc/BR-pt-20220926-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  height: 100vh;   
+  background-blend-mode: darken;
+}
+main h1{
+
+
+  width: 640px;
+  text-align: center;
+  padding: 150px 80px 80px 220px;
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main h2{
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+}
+.paragrafo{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+
+}
+

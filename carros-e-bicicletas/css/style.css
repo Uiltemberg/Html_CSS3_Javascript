@@ -20,11 +20,12 @@ h2 {
 }
 
 span {
-  color: #febe01; 
+  color: #febe01;
 }
 
-p {
+.paragrafo {
   color: #b2b2b2;
+  
 }
 a {
   display: inline-block;

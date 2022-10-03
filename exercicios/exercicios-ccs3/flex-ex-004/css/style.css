@@ -3,7 +3,7 @@ h1{
 }
 
 body{
-  font-size: 1.5rem;    
+  font-size: 1.6rem;    
 }
 .container{
  max-width: 400px;
@@ -18,8 +18,8 @@ body{
 }
 .item{
   background: #f2f2;
-  margin: 5px;
-  padding: 5px;
+  margin: 4px;
+  padding: 4px;
   text-align: center;
   flex: 1;
 

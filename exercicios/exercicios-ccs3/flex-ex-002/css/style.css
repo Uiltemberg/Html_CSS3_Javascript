@@ -9,7 +9,7 @@ body {
 .containet {
   background: #ddd;
   border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 4px;
   width: 640px;
   height: 560px;
   display: flex;
@@ -20,7 +20,7 @@ body {
   border: 2px solid black;
   width: 80px;
   height: 80px;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #727272;
   display: flex;
   align-items: center;
@@ -30,13 +30,13 @@ body {
   border: 1px solid black;
   width: 30px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #ddd;
 }
 .containet2 {
   background: #ddd;
   border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 4px;
   width: 640px;
   height: 560px;
   display: flex;
@@ -46,7 +46,7 @@ body {
 .containet3 {
   background: #ddd;
   border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 4px;
   width: 640px;
   height: 560px;
   display: flex;

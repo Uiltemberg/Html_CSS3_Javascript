@@ -1,24 +1,18 @@
 .titulo{
-  text-align: center;
-  
-
+  text-align: center; 
 }
 
-.container{
-  
-  padding: 20px;  
+.container{  
+  padding: 22px;  
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-between;
-  
 }
 
 .item{
   background: lightblue;
   border: 1px solid #d7d7;
-  padding: 20px;
-  margin: 8px;
+  padding: 22px;
+  margin: 8px;  
     
-  
-  
 }

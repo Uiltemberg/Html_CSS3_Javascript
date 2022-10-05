@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif; 
+  font-family: Arial, sans-serif;
+
  
 }
 h1 {
@@ -11,6 +12,11 @@ h1 {
   color: #103;
   text-decoration: none;
   border-radius: 5px;
+  display: flex;
+  justify-items: center;
+  justify-content: center ;
+
+  
 }
 h2 {
   margin-top: 0px;
@@ -23,8 +29,8 @@ h2 {
   display: grid;
 }
 .grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: grid;  
+  grid-template-columns: auto auto auto; 
   gap: 20px;
   justify-content: center;
   align-content: center;
